@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu_Utama">
+    <property name="title">
+     <string>Menu Utama</string>
+    </property>
+    <addaction name="actionData_Admin"/>
+    <addaction name="actionData_Surat_Masuk"/>
+    <addaction name="actionData_Surat_Keluar"/>
+    <addaction name="actionData_Disposisi"/>
+    <addaction name="actionData_Undangan"/>
+   </widget>
+   <addaction name="menuMenu_Utama"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionData_Admin">
+   <property name="text">
+    <string>Data Admin</string>
+   </property>
+  </action>
+  <action name="actionData_Surat_Masuk">
+   <property name="text">
+    <string>Data Surat Masuk</string>
+   </property>
+  </action>
+  <action name="actionData_Surat_Keluar">
+   <property name="text">
+    <string>Data Surat Keluar</string>
+   </property>
+  </action>
+  <action name="actionData_Disposisi">
+   <property name="text">
+    <string>Data Disposisi</string>
+   </property>
+  </action>
+  <action name="actionData_Undangan">
+   <property name="text">
+    <string>Data Undangan</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

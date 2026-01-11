@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1349</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>251</width>
+     <height>409</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="idSuratKeluarLabel">
+      <property name="text">
+       <string>Id Surat Keluar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="idSuratKeluarLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="idAdminLabel">
+      <property name="text">
+       <string>Id Admin</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="idAdminLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="dinasInstansiLabel">
+      <property name="text">
+       <string>Dinas Instansi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="dinasInstansiLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="noSuratLabel">
+      <property name="text">
+       <string>No Surat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="noSuratLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="tanggalSuratLabel">
+      <property name="text">
+       <string>Tanggal Surat</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QDateEdit" name="tanggalSuratDateEdit"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="uraianLabel">
+      <property name="text">
+       <string>Uraian</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="uraianLineEdit"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="BtnSimpan">
+      <property name="text">
+       <string>SIMPAN</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="BtnUbah">
+      <property name="text">
+       <string>UBAH</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="BtnHapus">
+      <property name="text">
+       <string>HAPUS</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="tanggalKeluarLabel">
+      <property name="text">
+       <string>TanggalKeluar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateEdit" name="tanggalKeluarDateEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>1171</width>
+     <height>115</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="filterDataLabel">
+      <property name="text">
+       <string>Filter Data</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboFilter">
+      <item>
+       <property name="text">
+        <string>Semua</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="btnCetak">
+      <property name="text">
+       <string>Cetak</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tblSuratKeluar">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>70</y>
+     <width>871</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Id Surat Keluar</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Id Admin</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tanggal Keluar</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Dinas Instansi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>No Surat</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tanggal Surat</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Uraian</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLineEdit" name="lineCari">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>20</y>
+     <width>871</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
